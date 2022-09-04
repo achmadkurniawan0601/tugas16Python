@@ -1,0 +1,210 @@
+1.
+Bug Title: Aplikasi Appventure tidak dapat berlangganan dengan memvalidasi email untuk mendapatkan berita dan update terbaru.
+Bug ID: BUG_01
+Area Path: index pages -> berlangganan
+Build Number: Version Number 5.0.1
+Severity: HIGH
+Priority: HIGH
+Assigned to: Achmad Kurniawan
+Reported By: Achmad Kurniawan
+Reported On: 18 Aug 2022 
+Reason: Defect
+Status: New/Open
+Device: Asus I7 2018
+Browser: Chrome 104
+
+Description: Aplikasi Appvanture ini adalah aplikasi yang berguna untuk membuat komunitas pecinta alam
+
+Steps to Reproduce:
+
+1) Ketikkan alamat URL https://my-appventure.herokuapp.com/
+2) Masukkan email valid
+3) Klik berlangganan.
+
+Actual Result: Aplikasi Appventure ini mengeluarkan notifikasi "TypeError: Cannot read properties of undefined (reading 'data')" apabila user sudah mengetikkan email yang valid.
+
+Expected Result: Aplikasi Appventure ini berhasil proses data, apabila user memasukkan email valid.
+
+2.
+Bug Title: Aplikasi Appventure tidak dapat memuat isi konten dan terus menampilkan "Silahkan Tunggu.." ketika user berada di halaman Beranda.
+Bug ID: BUG_02
+Area Path: Beranda page
+Build Number: Version Number 5.0.1
+Severity: HIGH
+Priority: HIGH
+Assigned to: Achmad Kurniawan
+Reported By: Achmad Kurniawan
+Reported On: 18 Aug 2022 
+Reason: Defect
+Status: New/Open
+Device: Asus I7 2018
+Browser: Chrome 104
+
+Description: Aplikasi Appvanture ini adalah aplikasi yang berguna untuk memulai Petualangan
+
+Steps to Reproduce:
+
+1) Ketikkan alamat URL https://my-appventure.herokuapp.com/
+2) Klik Button Silang (X)
+3) Scroll kebawah pada Halaman Beranda
+
+Actual Result: Aplikasi Appventure ini tidak memuat isi konten, dan hanya menampilkan Silahkan Tunggu pada bagian Sub Menu "Untuk Kamu"
+
+Expected Result: Aplikasi Appventure ini harus memuat isi konten bagaimana semestinya.
+
+3.
+Bug Title: Aplikasi Appventure tidak ada respon setelah user klik Masuk dengan email dan password kosong maupun tidak kosong
+Bug ID: BUG_03
+Area Path: Login page
+Build Number: Version Number 5.0.1
+Severity: HIGH
+Priority: HIGH
+Assigned to: Achmad Kurniawan
+Reported By: Achmad Kurniawan
+Reported On: 18 Aug 2022 
+Reason: Defect
+Status: New/Open
+Device: Asus I7 2018
+Browser: Chrome 104
+
+Description: Aplikasi Appvanture ini adalah aplikasi yang berguna untuk membuat komunitas pecinta alam
+
+Steps to Reproduce:
+
+1) Ketikkan alamat URL https://my-appventure.herokuapp.com/following-post
+2) Scroll kebawah pada Halaman Beranda
+3) Klik "Diikuti"
+4) Scroll Kebawah, dan klik "Yuk bergabung!"
+5) Kosongkan atau isi email dan password
+6) Klik Masuk
+
+Actual Result: Aplikasi Appventure ini tidak merespon apapun setelah user klik Masuk
+
+Expected Result: Aplikasi Appventure ini harus masuk kehalaman selanjutnya ketika user sudah memasukkan email, dan password.
+
+4. 
+Bug Title: Aplikasi Appventure terdapat beberapa gambar yang tidak tampil
+Bug ID: BUG_04
+Area Path: Komunitas page
+Build Number: Version Number 5.0.1
+Severity: Medium
+Priority: Medium
+Assigned to: Achmad Kurniawan
+Reported By: Achmad Kurniawan
+Reported On: 18 Aug 2022 
+Reason: Defect
+Status: New/Open
+Device: Asus I7 2018
+Browser: Chrome 104
+
+Description: Aplikasi Appvanture ini adalah aplikasi yang berguna untuk membuat komunitas pecinta alam
+
+Steps to Reproduce:
+
+1) Ketikkan alamat URL https://my-appventure.herokuapp.com/communities
+2) Scroll kebawah, perhatikan gambar-gambar yang berada dihalaman Komunitas ini
+
+Actual Result: Aplikasi Appventure ini tidak dapat memuat banyak gambar pada bagian halaman Komunitas dengan berbagai browser
+
+Expected Result: Aplikasi Appventure ini seharusnya dapat memuat semua gambar pada bagian halaman Komunitas dengan berbagai browser
+
+5.
+Bug Title: Aplikasi Appventure terdapat beberapa gambar yang tidak tampil
+Bug ID: BUG_04
+Area Path: Komunitas page
+Build Number: Version Number 5.0.1
+Severity: Medium
+Priority: Medium
+Assigned to: Achmad Kurniawan
+Reported By: Achmad Kurniawan
+Reported On: 18 Aug 2022 
+Reason: Defect
+Status: New/Open
+Device: Asus I7 2018
+Browser: Chrome 104
+
+Description: Aplikasi Appvanture ini adalah aplikasi yang berguna untuk membuat komunitas pecinta alam
+
+Steps to Reproduce:
+
+1) Ketikkan alamat URL https://my-appventure.herokuapp.com/communities
+2) Scroll kebawah, perhatikan gambar-gambar yang berada dihalaman Komunitas ini
+
+Actual Result: Aplikasi Appventure ini tidak dapat memuat banyak gambar pada bagian halaman Komunitas dengan berbagai browser
+
+Expected Result: Aplikasi Appventure ini seharusnya dapat memuat semua gambar pada bagian halaman Komunitas dengan berbagai browser
+
+5.
+Bug Title: Aplikasi Appventure terdapat beberapa gambar yang tidak tampil
+Bug ID: BUG_04
+Area Path: Komunitas page
+Build Number: Version Number 5.0.1
+Severity: Medium
+Priority: Medium
+Assigned to: Achmad Kurniawan
+Reported By: Achmad Kurniawan
+Reported On: 18 Aug 2022 
+Reason: Defect
+Status: New/Open
+Device: Asus I7 2018
+Browser: Chrome 104
+
+Description: Aplikasi Appvanture ini adalah aplikasi yang berguna untuk membuat komunitas pecinta alam
+
+Steps to Reproduce:
+
+1) Ketikkan alamat URL https://my-appventure.herokuapp.com/communities
+2) Scroll kebawah, perhatikan gambar-gambar yang berada dihalaman Komunitas ini
+
+Actual Result: Aplikasi Appventure ini tidak dapat memuat banyak gambar pada bagian halaman Komunitas dengan berbagai browser
+
+Expected Result: Aplikasi Appventure ini seharusnya dapat memuat semua gambar pada bagian halaman Komunitas dengan berbagai browser
+
+5.
+Bug Title: Aplikasi Appventure terdapat beberapa gambar yang tidak tampil
+Bug ID: BUG_05
+Area Path: Destination page
+Build Number: Version Number 5.0.1
+Severity: Low
+Priority: Low
+Assigned to: Achmad Kurniawan
+Reported By: Achmad Kurniawan
+Reported On: 18 Aug 2022 
+Reason: No Defect
+Status: New/Open
+Device: Asus I7 2018
+Browser: Chrome 104
+
+Description: Aplikasi Appvanture ini adalah aplikasi yang berguna untuk membuat komunitas pecinta alam
+
+Steps to Reproduce:
+1) Ketikkan alamat URL https://my-appventure.herokuapp.com/destinations
+2) Scroll kebawah, perhatikan gambar-gambar yang berada dihalaman Komunitas ini
+
+Actual Result: Aplikasi Appventure ini tidak dapat memuat banyak gambar pada bagian halaman Destinasi dengan berbagai browser
+
+Expected Result: Aplikasi Appventure ini seharusnya dapat memuat semua gambar pada bagian halaman Destinasi dengan berbagai browser, supaya user dapat melihat gambar sebagai sampel.
+
+6. Bug Title: Aplikasi Appventure menuju ke halaman Login apabila user mengetikkan kata-kata di bagian pencarian
+Bug ID: BUG_06
+Area Path: Search fitur
+Build Number: Version Number 5.0.1
+Severity: Critical
+Priority: High
+Assigned to: Achmad Kurniawan
+Reported By: Achmad Kurniawan
+Reported On: 18 Aug 2022 
+Reason: Defect
+Status: New/Open
+Device: Asus I7 2018
+Browser: Chrome 104
+
+Description: Aplikasi Appvanture ini adalah aplikasi yang berguna untuk membuat komunitas pecinta alam
+
+Steps to Reproduce:
+1) Ketikkan alamat URL https://my-appventure.herokuapp.com/following-post
+2) Ketikkan apa saja didalam area pencarian
+
+Actual Result: Aplikasi Appventure ini menuju ke halaman Login apabila user mengetikkan kata-kata didalam area pencarian
+
+Expected Result: Aplikasi Appventure ini seharusnya tidak direct kamanapun ketika user mengetikkan kata-kata di area pencarian

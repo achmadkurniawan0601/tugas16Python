@@ -1,0 +1,10 @@
+text_atas = browser.find_element(By.ID,"swal2-title").get_attribute("validationMessage"))
+
+https://www.sololearn.com/Play/Python/hoc
+
+https://youtube.com/playlist?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY
+
+https://drive.google.com/drive/folders/1GXMkr-T5YPyvSLp_jp9Zyx68MGwFJkp2?usp=sharing
+
+https://gist.github.com/barrukurniawan/d9dc9e290b4ef9850de3f7dc59a6429e
+

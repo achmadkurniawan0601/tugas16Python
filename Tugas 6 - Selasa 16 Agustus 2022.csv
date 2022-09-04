@@ -1,0 +1,58 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,1,,Register,1
+,,,,,,,,,,,,,,,,,,,,2,,Login,1
+,,,,,,,,,,,,,,,,,,,,3,,Pencarian,1
+,,,,,,,,,,,,,,,,,,,,4,,Pemesanan,1
+,,,,,,,,,,,,,,,,,,,,5,,Pembayaran,1
+1,"Memvalidasi fitur Registrasi Positif Case","Memvalidasi fitur registrasi https://www.tokopedia.com/register Positif Case",,,,high,normal,functional,positive,automated,actual,no,e2e,classic,"1. User melakukan pendaftaran
+","1. Apabila user sudah mendaftar akun ditokopedia, maka user akan berpindah ke halaman login
+","1. Memasukkan email, dan password baru untuk registrasi
+",,,1,,Register,
+2,"Testing Register dengan Email tidak valid","Memvalidasi Register dengan Email tidak valid https://www.tokopedia.com/register Negatif Case",,,,high,normal,functional,negative,automated,actual,no,e2e,classic,"1. User melakukan register dengan aku email tidak valid
+","1. Apabila user memasukkan email tidak valid, maka kode verifikasi tidak terkirim ke email user
+","1. User memasukkan email yang tidak valud
+",,,1,,Register,
+3,"Testing Kode Aktivasi","Memvalidasi Kode Aktivasi tidak sesuai dengan Email",,,,high,normal,functional,negative,automated,actual,no,e2e,classic,"1. User memasukkan kode aktivasi **tidak sesuai** yang ada diemail user
+","1. Apabila user memasukkan kode aktivasi yang tidak valid, maka user tidak masuk ke halaman berikutnya
+","1. kode verifikasi tidak sama dengan email
+",,,1,,Register,
+4,"Input nama dengan angka atau spesial karakter","Memasukkan nama dengan angka atau spesial karakter",,,,low,normal,acceptance,negative,automated,actual,no,e2e,classic,"1. User harus memasukkan nama lengkap minimal 3 karakter, dan tidak dapat input dengan angka maupun special karakter, hanya huruf saja.
+","1. Apabila user memasukkan nama lengkap kurang dari 3 karakter, maka user tidak dapat lanjut ke halaman selanjutnya
+","1. 
+",,,1,,Register,
+5,"Input password dengan dibawah minimal karakter","User harus memasukkan password minimal 3 karakter",,,,medium,normal,functional,negative,automated,actual,no,e2e,classic,"1. Apabila user memasukkan password kurang dari 8 karakter
+","1. Apabila user memasukkan password kurang dari 8 karakter, maka user tidak dapat lanjut ke halaman selanjutnya
+","1. 
+",,,1,,Register,
+6,"Login valid data","User input email, dan password dengan benar",,,,high,normal,functional,positive,automated,actual,no,e2e,classic,"1. 1. User memasukkan email, dan password yang sudah didaftarkan
+","1. Apabila user sudah Login ditokopedia, maka user akan diarahkan menuju halaman index tokopedia
+","1. 
+",,,2,,Login,
+9,"Authentication email not valid","User input email tidak valid",,,,medium,normal,functional,negative,automated,actual,no,e2e,classic,"1. User memasukkan email yang tidak valid
+","1. Apabila user input email tidak valid, maka user tidak dapat login
+","1. 
+",,,2,,Login,
+10,"Authentication email null","User mengkosongkan email login",,,,medium,normal,functional,negative,automated,actual,no,e2e,classic,"1. User mengkosongkan email
+","1. Apabila mengkosonglan email, maka user tidak dapat login atau tombol submit login nya disabled.
+","1. 
+",,,2,,Login,
+11,"Authentication password not valid","User mengkosongkan password login",,,,medium,normal,functional,negative,automated,actual,no,e2e,classic,"1. User input password tidak valid
+","1. Apabila user input password tidak valid, maka akan muncul notifikasi “Email atau kata sandi salah”
+","1. 
+",,,2,,Login,
+12,"Authentication password null","User mengkosongkan password login",,,,medium,normal,functional,negative,automated,actual,no,e2e,classic,"1. User mengkosongkan password
+","1. Apabila user mengkosongkan password, maka akan muncul notif “Kata sandi harus diisi”
+","1. 
+",,,2,,Login,
+13,"Sortir item","User melakukan pencarian item",,,,high,normal,functional,positive,automated,actual,no,e2e,classic,"1. User mengetik nama item pada kolom pencarian
+","1. Apabila User sudah mengetikan nama item, user berpindah kehalaman berikutnya untuk memilih item yang sesuai dengan nama item dari User
+","1. 
+",,,3,,Pencarian,
+14,"Order items","User melakukan pemesanan barang",,,,high,normal,functional,positive,automated,actual,no,e2e,classic,"1. User mengklik item yang sesuai kriteria, jenis, tipe, atau warna barang
+","1. Apabila User sudah memesan item sesuai dengan kriteria, maka user akan berpindahan ke halaman pembayaran
+","1. 
+",,,4,,Pemesanan,
+15,"Method Payment","User melakukan pembayaran barang yang sudah dipesan",,,,high,critical,functional,positive,automated,actual,no,e2e,classic,"1. User dapat memilih metode pembayaran (Debit/Credit Card, Transfer, E-Wallet, dan lainnya)
+","1. Apabila User sudah memilih banyak item yang dipesan, pemlihan paket pengiriman, dan metode pembayaran. Maka user akan berpindah ke halaman pembayaran.
+","1. 
+",,,5,,Pembayaran,
